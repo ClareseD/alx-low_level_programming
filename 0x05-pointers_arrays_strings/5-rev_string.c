@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * rev_string - Reverses s string
@@ -30,4 +30,6 @@ void rev_string(char *s)
 		*a = aux;
 		a--;
 	}
+
+	return (0)
 }
