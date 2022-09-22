@@ -6,8 +6,7 @@
  * @dest: string to be appended upon
  * @src: string to be completed at the end dest
  * @n: integer parameter to compare index to
- *
- * Retun: returns new concatenated string
+ * Retun: the pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
